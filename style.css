@@ -1,0 +1,33 @@
+*{
+    border: solid;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 10vh;
+    align-items: center;
+}
+h1{
+    margin-left: 10px;
+}
+#products_grid{
+    display: grid;
+    min-height: 80vh;
+    grid-template-columns: repeat(4, 1fr);
+}
+#promo{
+    line-height: 20px;
+    padding-top: 10px;
+    min-height: 5vh;
+    text-align: center;
+}
+#cart{
+    display: flex;
+    align-items: center;
+    min-width: 10vh;
+    margin-right: 10px;
+}
+#search{
+    height: 50px;
+    width: 200px;
+}
